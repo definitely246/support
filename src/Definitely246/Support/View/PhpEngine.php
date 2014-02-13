@@ -3,7 +3,7 @@
 /**
  * Borrowed from Laravel's PhpEngine class for Views.
  */
-class PhpEngine
+abstract class PhpEngine
 {
 	/**
 	 * Get the evaluated contents of the view.
