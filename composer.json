@@ -1,0 +1,22 @@
+{
+    "name": "definitely246/support",
+    "description": "Holds support classes for other definitely246 packages.",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Kelt Dockins",
+            "email": "kelt@dockins.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Definitely246\\Support\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
