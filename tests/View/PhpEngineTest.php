@@ -9,7 +9,7 @@ class PhpEngineTest extends \PHPUnit_Framework_TestCase
 	 */
 	public function testBasicExample()
 	{
-		new PhpEngine;
+		new TestViewClass;
 	}
 
 	// need to test PhpEngine ->get function some later

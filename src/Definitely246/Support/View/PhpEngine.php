@@ -6,6 +6,11 @@
 abstract class PhpEngine
 {
 	/**
+	 * The child class must know how to render itself with data
+	 */
+	abstract public function render($data = array());
+
+	/**
 	 * Get the evaluated contents of the view.
 	 *
 	 * @param  array   $data
